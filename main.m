@@ -45,7 +45,7 @@ function SspZ8quintic(p)
     end if;
 end function;
 
-p := 11;
+p := 13;
 while p le 10000 do
     p := NextPrime(p);
     num := SspZ8quintic(p);
